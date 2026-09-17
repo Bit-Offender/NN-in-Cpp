@@ -23,6 +23,7 @@ class Network{
                 vector<double> layer_biases;
                 for(int j = 0; j < sizes[i]; j++){
                     layer_biases.push_back(dist(gen));
+                }
                 biases.push_back(layer_biases);
             }
             for(int i = 1; i < num_layers; i++){
