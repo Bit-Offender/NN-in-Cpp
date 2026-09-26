@@ -8,3 +8,4 @@ eigen_lab/eigen/
 
 mnist_train.csv/
 mnist_test.csv/
+*.csv
